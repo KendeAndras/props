@@ -1,9 +1,13 @@
 package controllers;
 
-public class Controller {
+import java.util.ArrayList;
+import java.util.Arrays;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import models.Property;
+import models.RestApi;
+import views.Console;
 
-    public Controller() {
-        
-    }
+public class Controller {
     
 }

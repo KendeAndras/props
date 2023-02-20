@@ -42,7 +42,7 @@ public class HttpClient {
         try {
             result = tryPost(url, data, headers);
         } catch (IOException e) {
-            String msg = "Hiba! A REST API elérés sikertelen!";
+            String msg = "Hiba! A REST API elérés sikertelen! :(";
             System.err.println(msg);
             result = msg;
         }
@@ -74,7 +74,7 @@ public class HttpClient {
         try {
             text = this.tryConvertInputStreamToString(inputStream);
         } catch (UnsupportedEncodingException e) {
-            String msg = "Hiba! Nem támogatott kódolás!";
+            String msg = "Hiba! Nem támogatott kódolás! :(";
             System.err.println(msg);
             text = msg;
         }
