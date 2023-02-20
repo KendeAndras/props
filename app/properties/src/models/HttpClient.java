@@ -21,7 +21,7 @@ public class HttpClient {
         try {
             result = tryGet(urlStr);
         } catch (IOException e) {
-            String msg = "Hiba! A GET kérés sikertelen!";
+            String msg = "Hiba! A GET kérés sikertelen! :(";
             System.err.println(msg);
             result = msg;
         }

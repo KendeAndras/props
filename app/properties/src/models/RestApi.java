@@ -2,6 +2,9 @@ package models;
 
 public class RestApi {
 
+    public RestApi() {
+    }
+
     public String getProperties() {        
         HttpClient http = new HttpClient();        
         String host = "http://[::1]:3000/";
