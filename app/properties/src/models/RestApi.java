@@ -1,3 +1,13 @@
+ /*
+* File: RestApi.java
+* Author: KorcsmarosKendeAndras
+* Copyright: 2023 , KorcsmarosKendeAndras
+* Group: Szoft 2/N
+* Date: 2023-03-03
+* Github: https://github.com/KendeAndras/
+* Licenc: GNU GPL
+*/
+
 package models;
 
 public class RestApi {

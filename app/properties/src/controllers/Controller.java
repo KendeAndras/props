@@ -1,3 +1,13 @@
+ /*
+* File: Controller.java
+* Author: KorcsmarosKendeAndras
+* Copyright: 2023 , KorcsmarosKendeAndras
+* Group: Szoft 2/N
+* Date: 2023-03-03
+* Github: https://github.com/KendeAndras/
+* Licenc: GNU GPL
+*/
+
 package controllers;
 
 import java.util.ArrayList;
@@ -14,6 +24,7 @@ public class Controller {
     public Controller() {
         this.console = new Console();
         this.showProp();
+        console.printInfo();
     }
     
     private void showProp() {
